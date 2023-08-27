@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* storing background files*/
+:root {
+    --h1: url("background-anim/horizontal/1.jpg");
+    --h2: url("background-anim/horizontal/2.jpg");
+    --h3: url("background-anim/horizontal/3.jpg");
+    --h4: url("background-anim/horizontal/4.jpg");
+    --h5: url("background-anim/horizontal/5.jpg");
+    --h6: url("background-anim/horizontal/6.jpg");
+    --h7: url("background-anim/horizontal/7.jpg");
+    --1: url("background-anim/1.jpg");
+    --2: url("background-anim/2.jpg");
+    --3: url("background-anim/3.jpg");
+    --4: url("background-anim/4.jpg");
+    --5: url("background-anim/5.jpg");
+    --6: url("background-anim/6.jpg");
+    --7: url("background-anim/7.jpg");
+    --8: url("background-anim/8.jpg");
+    --9: url("background-anim/9.jpg");
+    --10: url("background-anim/10.jpg");
+    --11: url("background-anim/11.jpg");
+    --12: url("background-anim/12.jpg");
+    --13: url("background-anim/13.jpg");
+    --14: url("background-anim/14.jpg");
+    --15: url("background-anim/15.jpg");
+    --16: url("background-anim/16.jpg");
+    --17: url("background-anim/17.jpg");
+    --18: url("background-anim/18.jpg");
+    --19: url("background-anim/19.jpg");
+    --20: url("background-anim/20.jpg");
+    --21: url("background-anim/21.jpg");
+    --22: url("background-anim/22.jpg");
+    --23: url("background-anim/23.jpg");
+    --24: url("background-anim/24.jpg");
+    --25: url("background-anim/25.jpg");
+    --26: url("background-anim/26.jpg");
+    --27: url("background-anim/27.jpg");
+    --28: url("background-anim/28.jpg");
+    --29: url("background-anim/29.jpg");
+    --30: url("background-anim/30.jpg");
+    --31: url("background-anim/31.jpg");
+    --v1: url("background-anim/vertical/1.png");
+    --v2: url("background-anim/vertical/2.png");
+    --v3: url("background-anim/vertical/3.png");
+    --v4: url("background-anim/vertical/4.png");
+    --v5: url("background-anim/vertical/5.png");
+    --v6: url("background-anim/vertical/6.png");
+}
+
+body{
+  /* 322 vh = 6200 px */
+  min-height: 300vh;
+  transition: all 0.4s;
+  background-color: #303036;
+  background-image: var(--h1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-family: 'Nunito', 'sans-serif';
+  letter-spacing: 1.5rem;
+  font-size: 3rem;
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+.socials-button{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.05rem;
+  background: rgba(255, 255, 255, 0.329);
+  width: 90%;
+  height: 40px;
+}
+
+.socials-button:hover{
+  background: rgba(255, 255, 255, 0.082);
+  border: 0.5px solid rgb(255, 255, 255);
+  transition: all 0.3s;
+}
+
+.mid{
+  display: inline-block;
+  width: 75%;
+  text-align: left;
+}
+
+.about-me{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#more-about-me{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#information{
+  font-size: 1.25rem;
+}
+#ending{
+  float: right;
+  font-size: 1.25rem;
+}
+
+#title{
+  color: white;
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 10px;
+}
+
+.link-buttons{
+  flex-direction: column;
+}
+
+.link-buttons button{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.05rem;
+  background: rgba(255, 255, 255, 0.329);
+  width: 70%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.link-buttons button:hover{
+  background: rgba(255, 255, 255, 0.082);
+  border: 0.5px solid rgb(255, 255, 255);
+  transition: all 0.3s;
+}
+
+/* mobile moment */
+@media only screen and (max-width: 500px){
+  h1{
+    letter-spacing: 1rem;
+    font-size: 2.25rem;
+  }
+  #socials-button{
+    font-size: 1rem;
+  }
+  #more-about-me{
+    font-size: 1.25rem;
+  }
+  #information{
+    font-size: 1rem;
+  }
+  #ending{
+    font-size: 1rem;
+  }
+  #title{
+    font-size: 1.7rem;
+  }
+  .link-buttons button{
+    font-size: 1rem;
+  }
+}
