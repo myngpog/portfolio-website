@@ -164,8 +164,7 @@ h1{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
   h1{
     letter-spacing: 1rem;

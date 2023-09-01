@@ -728,8 +728,7 @@ h1{
 @media only screen and (max-width: 500px){
   html {
     background-size: cover;
-    height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   h1{
