@@ -7,8 +7,8 @@ window.onload = (event) => {
 
 $(document).ready(function(){
     $('.List li').on('click touchstart', function() {
-        $('.Div').slideDown('500');
     });
+});
 
 // changes background based on scrolling ig
 window.addEventListener("scroll", (event) => {
