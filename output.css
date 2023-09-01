@@ -575,6 +575,7 @@ video {
 html {
   scroll-behavior: smooth;
   background-position: fixed;
+  overscroll-behavior-y: none;
 }
 
 /* storing background files*/
@@ -637,6 +638,7 @@ body{
   background-position: center;
   background-size: cover;
   text-align: center;
+  overscroll-behavior-y: none;
 }
 
 h1{
