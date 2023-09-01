@@ -78,6 +78,7 @@ html {
 }
 
 body{
+  position: absolute;
   min-height: 300vh;
   /* background-color: #303036;
   background-image: var(--h1);
@@ -175,9 +176,6 @@ h1{
 
 /* mobile moment */
 @media only screen and (max-width: 500px){
-  .container{
-    position: absolute;
-  }
   .main-visual{
     background-attachment: scroll;
     background-size: cover;

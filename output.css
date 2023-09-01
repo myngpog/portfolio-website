@@ -534,40 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -676,6 +642,7 @@ html {
 }
 
 body{
+  position: absolute;
   min-height: 300vh;
   /* background-color: #303036;
   background-image: var(--h1);
@@ -774,10 +741,6 @@ h1{
 /* mobile moment */
 
 @media only screen and (max-width: 500px){
-  .container{
-    position: absolute;
-  }
-
   .main-visual{
     background-attachment: scroll;
     background-size: cover;
