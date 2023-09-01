@@ -152,7 +152,7 @@ h1{
 
 .link-buttons{
   flex-direction: column;
-  z-index:-1
+  z-index: 99
 }
 
 .link-buttons button{
@@ -163,7 +163,6 @@ h1{
   width: 70%;
   height: 40px;
   margin-bottom: 20px;
-  z-index: 99;
 }
 
 .link-buttons button:hover{
