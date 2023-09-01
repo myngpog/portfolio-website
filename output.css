@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -726,12 +730,12 @@ h1{
 /* mobile moment */
 
 @media only screen and (max-width: 500px){
-  body{
-    background-position: fixed;
+  /* background{
+    position: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
+  } */
 
   h1{
     letter-spacing: 1rem;
