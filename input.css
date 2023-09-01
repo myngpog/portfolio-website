@@ -70,6 +70,7 @@ body{
   background-size: cover;
   text-align: center;
   overscroll-behavior-y: none;
+  height: 300vh;
 }
 
 
