@@ -575,6 +575,7 @@ video {
 html {
   scroll-behavior: smooth;
   overscroll-behavior-y: none;
+  min-height: 300vh;
 }
 
 /* storing background files*/
@@ -628,8 +629,7 @@ html {
 
 body{
   /* 322 vh = 6200 px */
-  min-height: 300vh;
-  height: 100vh;
+  height: 100%;
   /* transition: all 0.4s; */
   background-color: #303036;
   background-image: var(--h1);
