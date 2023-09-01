@@ -728,6 +728,9 @@ h1{
 @media only screen and (max-width: 500px){
   body{
     background-size: auto 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
   }
 
   h1{
