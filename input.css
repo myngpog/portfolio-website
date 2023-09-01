@@ -9,7 +9,6 @@
 
 html {
     scroll-behavior: smooth;
-    overscroll-behavior: none;
 }
 
 /* storing background files*/
@@ -63,7 +62,7 @@ html {
 body{
   /* 322 vh = 6200 px */
   min-height: 300vh;
-  transition: all 0.4s;
+  /* transition: all 0.4s; */
   background-color: #303036;
   background-image: var(--h1);
   background-repeat: no-repeat;
@@ -71,6 +70,7 @@ body{
   background-position: center;
   background-size: cover;
   text-align: center;
+  position: fixed;
 }
 
 h1{

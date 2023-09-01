@@ -26,6 +26,7 @@ window.addEventListener("scroll", (event) => {
     else{
         var imageNumber = vhtoImage(lastKnownScrollPositionVH)
         document.body.style.backgroundImage = `var(--${imageNumber})`;}
+        document.body.style.transition = "all 0.35s";
 });
 
 // remove hash if at the bottom

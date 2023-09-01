@@ -628,7 +628,7 @@ html {
 body{
   /* 322 vh = 6200 px */
   min-height: 300vh;
-  transition: all 0.4s;
+  /* transition: all 0.4s; */
   background-color: #303036;
   background-image: var(--h1);
   background-repeat: no-repeat;
@@ -636,6 +636,7 @@ body{
   background-position: center;
   background-size: cover;
   text-align: center;
+  position: fixed;
 }
 
 h1{
@@ -649,12 +650,17 @@ h1{
   font-weight: lighter;
 }
 
+.button-container{
+  z-index: -1
+}
+
 .socials-button{
   color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.05rem;
   background: rgba(255, 255, 255, 0.329);
   width: 90%;
+  z-index: 99;
   height: 40px;
 }
 
@@ -698,6 +704,7 @@ h1{
 
 .link-buttons{
   flex-direction: column;
+  z-index:-1
 }
 
 .link-buttons button{
@@ -708,6 +715,7 @@ h1{
   width: 70%;
   height: 40px;
   margin-bottom: 20px;
+  z-index: 99;
 }
 
 .link-buttons button:hover{
@@ -746,5 +754,6 @@ h1{
 
   .link-buttons button{
     font-size: 1rem;
+    margin-bottom: 25px;
   }
 }
