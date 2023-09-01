@@ -10,6 +10,8 @@
 html {
     scroll-behavior: smooth;
     overscroll-behavior-y: none;
+    height: 100%;
+
 }
 
 
@@ -176,7 +178,6 @@ h1{
   .main-visual{
     background-attachment: scroll;
     background-size: cover;
-    height: 100%;
   }
   h1{
     letter-spacing: 1rem;
