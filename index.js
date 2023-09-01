@@ -6,15 +6,15 @@ window.onload = (event) => {
 };
 
 $( document ).ready(function() {
-    const massiveContainer = document.querySelector('.massive-container');
+    const massiveContainer = document.querySelector('.main-visual');
     if ($(window).width() <= $(window).height()){
-        massiveContainer.style.backgroundImage = `var(--v1)`;
+       massiveContainer.style.backgroundImage = `var(--v1)`;
     }
 });
 
 // changes background based on scrolling ig
 window.addEventListener("scroll", (event) => {
-    const massiveContainer = document.querySelector('.massive-container');
+    const massiveContainer = document.querySelector('.main-visual');
     const lastKnownScrollPosition = window.scrollY
     const lastKnownScrollPositionVH = pxtovhConversion(lastKnownScrollPosition)
     console.log(Math.round(lastKnownScrollPositionVH))
