@@ -558,6 +558,10 @@ video {
   justify-content: center;
 }
 
+.bg-fixed {
+  background-attachment: fixed;
+}
+
 .text-center {
   text-align: center;
 }
