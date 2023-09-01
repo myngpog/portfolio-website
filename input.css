@@ -11,8 +11,6 @@ html {
     scroll-behavior: smooth;
     overscroll-behavior-y: none;
     height: 100%;
-    background-color: #303036;
-
 }
 
 
@@ -181,11 +179,8 @@ h1{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100vh;
-    background-size: cover;
     background-attachment: scroll;
-    z-index: -1;
   }
   h1{
     letter-spacing: 1rem;
