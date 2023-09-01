@@ -9,6 +9,8 @@
 
 html {
     scroll-behavior: smooth;
+    background-position: fixed;
+
 }
 
 /* storing background files*/
@@ -70,7 +72,6 @@ body{
   background-position: center;
   background-size: cover;
   text-align: center;
-  background-position: fixed;
 }
 
 h1{
