@@ -10,8 +10,6 @@
 html {
     scroll-behavior: smooth;
     overscroll-behavior-y: none;
-    min-height: 300vh;
-
 }
 
 /* storing background files*/
@@ -63,9 +61,7 @@ html {
 }
 
 body{
-  /* 322 vh = 6200 px */
-  height: 100%;
-  /* transition: all 0.4s; */
+  min-height: 300vh;
   background-color: #303036;
   background-image: var(--h1);
   background-repeat: no-repeat;

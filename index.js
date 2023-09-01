@@ -8,6 +8,7 @@ window.onload = (event) => {
 $( document ).ready(function() {
     if ($(window).width() <= $(window).height()){
         document.body.style.backgroundImage = `var(--v1)`;
+        document.body.style.backgroundAttachment = "scroll";
     }
 });
 
