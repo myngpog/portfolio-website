@@ -174,8 +174,8 @@ h1{
 /* mobile moment */
 @media only screen and (max-width: 500px){
   .main-visual{
-    background-attachment: scroll;
-    background-size: cover;
+    /* background-attachment: scroll;
+    background-size: cover; */
     height: 100vh;
   }
   h1{
