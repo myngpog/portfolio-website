@@ -176,6 +176,9 @@ h1{
   transition: all 0.3s;
 }
 
+@media (hover: none) {
+}
+
 /* mobile moment */
 @media only screen and (max-width: 500px){
   .main-visual{
