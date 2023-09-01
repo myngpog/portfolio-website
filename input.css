@@ -158,6 +158,9 @@ h1{
 
 /* mobile moment */
 @media only screen and (max-width: 500px){
+  body{
+    background-attachment: scroll;
+  }
   h1{
     letter-spacing: 1rem;
     font-size: 2.25rem;
