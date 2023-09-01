@@ -159,6 +159,7 @@ h1{
 /* mobile moment */
 @media only screen and (max-width: 500px){
   body{
+    position: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
