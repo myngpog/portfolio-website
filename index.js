@@ -26,7 +26,7 @@ window.addEventListener("scroll", (event) => {
         massiveContainer.style.transition = "all 0.35s";
 
         if (imageNumber > 7){
-            massiveContainer.style.backgroundImage = `var(--v7)`;
+            massiveContainer.style.backgroundImage = `var(--v6)`;
         }
     }
     // regular device
