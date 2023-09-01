@@ -680,13 +680,14 @@ h1{
   background: rgba(255, 255, 255, 0.329);
   width: 90%;
   height: 40px;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .socials-button:hover{
   background: rgba(255, 255, 255, 0.082);
   border: 0.5px solid rgb(255, 255, 255);
   transition: all 0.3s;
+  z-index: 2;
 }
 
 .mid{
