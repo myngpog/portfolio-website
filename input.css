@@ -101,13 +101,12 @@ h1{
   text-align: center;
   padding-left: 1.5rem;
   font-weight: lighter;
-  z-index: 1;
+  z-index: -1;
 }
 
 .button-container{
-  z-index: -1;
+  z-index: 5;
   padding-top: 10px;
-
 }
 
 .socials-button{
@@ -117,13 +116,14 @@ h1{
   background: rgba(255, 255, 255, 0.329);
   width: 90%;
   height: 40px;
-  z-index: 1000;
+  z-index: 5;
 }
 
 .socials-button:hover{
   background: rgba(255, 255, 255, 0.082);
   border: 0.5px solid rgb(255, 255, 255);
   transition: all 0.3s;
+  z-index: 5;
 }
 
 .mid{
