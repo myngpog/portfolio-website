@@ -666,6 +666,7 @@ h1{
   text-align: center;
   padding-left: 1.5rem;
   font-weight: lighter;
+  z-index: 1;
 }
 
 .button-container{
