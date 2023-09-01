@@ -640,6 +640,11 @@ html {
   background-repeat: no-repeat;
 }
 
+a {
+  display: block;
+  z-index: 99;
+}
+
 body{
   position: absolute;
   min-height: 300vh;
@@ -676,10 +681,6 @@ h1{
   width: 90%;
   z-index: 99;
   height: 40px;
-}
-
-a {
-  display: block;
 }
 
 .socials-button:hover{
@@ -733,7 +734,6 @@ a {
   width: 70%;
   height: 40px;
   margin-bottom: 20px;
-  z-index: 99
 }
 
 .link-buttons button:hover{
