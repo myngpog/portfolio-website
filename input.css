@@ -60,14 +60,25 @@ html {
     --v6: url("background-anim/vertical/6.png");
 }
 
+.massive-container{
+  overflow: hidden;
+  background-color: #303036;
+  background-image: var(--h1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
 body{
   min-height: 300vh;
-  background-color: #303036;
+  /* background-color: #303036;
   background-image: var(--h1);
   background-repeat: no-repeat no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
   text-align: center;
   overscroll-behavior-y: none;
 }
@@ -159,13 +170,6 @@ h1{
 
 /* mobile moment */
 @media only screen and (max-width: 500px){
-  html {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /* overflow: hidden; */
-}
   h1{
     letter-spacing: 1rem;
     font-size: 2.25rem;

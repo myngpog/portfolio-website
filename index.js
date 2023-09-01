@@ -6,27 +6,29 @@ window.onload = (event) => {
 };
 
 $( document ).ready(function() {
+    const massiveContainer = document.querySelector('.massive-container');
     if ($(window).width() <= $(window).height()){
-        document.body.style.backgroundImage = `var(--v1)`;
+        massiveContainer.style.backgroundImage = `var(--v1)`;
     }
 });
 
 // changes background based on scrolling ig
 window.addEventListener("scroll", (event) => {
+    const massiveContainer = document.querySelector('.massive-container');
     const lastKnownScrollPosition = window.scrollY
     const lastKnownScrollPositionVH = pxtovhConversion(lastKnownScrollPosition)
     console.log(Math.round(lastKnownScrollPositionVH))
     // mobile devices (when height > width)
     if ($(window).width() <= $(window).height()){
         var imageNumber = vhtoImageMobile(lastKnownScrollPositionVH)
-        document.body.style.backgroundImage = `var(--v${imageNumber})`;
-        document.body.style.transition = "all 0.35s";
+        massiveContainer.style.backgroundImage = `var(--v${imageNumber})`;
+        massiveContainer.style.transition = "all 0.35s";
     }
     // regular device
     else{
         var imageNumber = vhtoImage(lastKnownScrollPositionVH)
-        document.body.style.backgroundImage = `var(--${imageNumber})`;}
-        document.body.style.transition = "all 0.35s";
+        massiveContainer.style.backgroundImage = `var(--${imageNumber})`;}
+        massiveContainer.style.transition = "all 0.35s";
 });
 
 // remove hash if at the bottom
