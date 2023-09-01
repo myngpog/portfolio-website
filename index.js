@@ -24,6 +24,10 @@ window.addEventListener("scroll", (event) => {
         var imageNumber = vhtoImageMobile(lastKnownScrollPositionVH)
         massiveContainer.style.backgroundImage = `var(--v${imageNumber})`;
         massiveContainer.style.transition = "all 0.35s";
+
+        if (imageNumber > 7){
+            massiveContainer.style.backgroundImage = `var(--v7)`;
+        }
     }
     // regular device
     else{
