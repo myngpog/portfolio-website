@@ -83,6 +83,10 @@ h1{
   font-weight: lighter;
 }
 
+.button-container{
+  z-index:-1
+}
+
 .socials-button{
   color: white;
   font-family: 'Courier New', Courier, monospace;
@@ -131,6 +135,7 @@ h1{
 
 .link-buttons{
   flex-direction: column;
+  z-index:-1
 }
 
 .link-buttons button{
