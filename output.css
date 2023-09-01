@@ -640,6 +640,7 @@ body{
   background-position: center;
   background-size: cover;
   text-align: center;
+  background-position: fixed;
 }
 
 h1{
