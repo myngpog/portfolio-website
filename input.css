@@ -180,5 +180,6 @@ h1{
   }
   .link-buttons button{
     font-size: 1rem;
+    margin-bottom: 25px;
   }
 }

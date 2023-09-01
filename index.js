@@ -5,6 +5,12 @@ window.onload = (event) => {
   console.log("page is fully loaded");
 };
 
+$( document ).ready(function() {
+    if ($(window).width() <= $(window).height()){
+        document.body.style.backgroundImage = `var(--v1)`;
+    }
+});
+
 // changes background based on scrolling ig
 window.addEventListener("scroll", (event) => {
     const lastKnownScrollPosition = window.scrollY
