@@ -9,9 +9,7 @@ $( document ).ready(function() {
     const massiveContainer = document.querySelector('.main-visual');
     if ($(window).width() <= $(window).height()){
        massiveContainer.style.backgroundImage = `var(--v1)`;
-       massiveContainer.stlye.backgroundAttachment = 'scroll';
-       massiveContainer.style.backgroundSize = 'cover';
-       
+
     }
 });
 
