@@ -187,7 +187,8 @@ h1{
     top: 0;
     left: 0;
     height: 100vh;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: auto 100%;
   }
   h1{
     letter-spacing: 1rem;
