@@ -151,7 +151,6 @@ h1{
 
 .link-buttons{
   flex-direction: column;
-  size: 50%; 
 }
 
 .link-buttons button{
@@ -159,13 +158,13 @@ h1{
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.05rem;
   background: rgba(255, 255, 255, 0.329);
-  width: 70%;
+  width:90%;
   height: 40px;
   margin-bottom: 20px;
+  border: 0.5px solid rgba(255, 255, 255, 0.329);
 }
 
 @media (hover: hover){
-
   .socials-button:hover{
     background: rgba(255, 255, 255, 0.082);
     border: 0.5px solid rgb(255, 255, 255);
@@ -179,6 +178,7 @@ h1{
     transition: all 0.3s;
   }
 }
+
 
 /* mobile moment */
 
