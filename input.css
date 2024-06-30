@@ -151,6 +151,7 @@ h1{
 
 .link-buttons{
   flex-direction: column;
+  size: 50%; 
 }
 
 .link-buttons button{
