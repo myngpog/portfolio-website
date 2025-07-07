@@ -13,6 +13,10 @@ html {
     background-color: #303036;
 }
 
+::selection {
+  background-color: #393652;
+  color: white;
+}
 
 /* storing background files*/
 :root {
