@@ -34,6 +34,11 @@
 6. Use the user's configured `sans` font-variation-settings by default.
 */
 
+::selection {
+  background-color: #706b97 !important;
+  color: white !important;
+}
+
 html {
   line-height: 1.5;
   /* 1 */

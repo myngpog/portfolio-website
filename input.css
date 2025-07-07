@@ -14,8 +14,8 @@ html {
 }
 
 ::selection {
-  background-color: #393652;
-  color: white;
+  background-color: #393652 !important;
+  color: white !important;
 }
 
 /* storing background files*/
