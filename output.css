@@ -633,7 +633,7 @@ html {
 }
 
 .main-visual{
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center center;
   background-image: var(--h1);
   width: 100%;
@@ -651,7 +651,7 @@ a {
 }
 
 body{
-  position: absolute;
+  position: relative;
   min-height: 300vh;
   /* background-color: #303036;
   background-image: var(--h1);
