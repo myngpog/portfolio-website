@@ -739,6 +739,8 @@ h1{
 #ending a {
   color: rgb(189, 178, 217);
   text-decoration: underline;
+  display: inline;
+  white-space: normal;
 }
 
 #ending a:hover {
@@ -766,7 +768,10 @@ h1{
   .main-visual {
     background-size: contain;
     background-position: center;
+    background-position: center;
     background-color: #303036; /* or your page bg, to fill empty space */
+    height: auto;
+    min-height: 60svh;
   }
 }
 
