@@ -744,9 +744,18 @@ h1{
 }
 
 #ending a:hover {
-  color: #635c9d; /* or your accent color */
+  color: #635c9d;
 }
 
+.bloom-link {
+  text-decoration: underline;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.bloom-link:hover {
+  color: #635c9d;
+}
 
 @media (hover: hover){
   .socials-button:hover{
