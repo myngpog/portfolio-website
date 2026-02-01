@@ -750,7 +750,8 @@ h1{
 .bloom-link {
   text-decoration: underline;
   color: inherit;
-  white-space: nowrap;
+  display: inline;
+  white-space: normal;
 }
 
 .bloom-link:hover {
