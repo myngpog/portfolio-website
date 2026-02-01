@@ -737,7 +737,7 @@ h1{
 
 /* Mailing link */
 #ending a {
-  color: rgb(217, 208, 240);
+  color: rgb(212, 195, 255);
   text-decoration: underline;
   display: inline;
   white-space: normal;
@@ -755,7 +755,7 @@ h1{
 }
 
 .bloom-link:hover {
-  color: #6983b3;
+  color: #7b9bd8;
 }
 
 @media (hover: hover){
