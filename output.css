@@ -579,7 +579,6 @@ video {
 
 html {
   scroll-behavior: smooth;
-  overscroll-behavior-y: none;
   background-color: #303036;
 }
 
