@@ -1,6 +1,7 @@
 .body-content {
   width: 60%;
   vertical-align: middle;   
+  max-height: 90vh;
 }
 
 /* WORLD MAP */
