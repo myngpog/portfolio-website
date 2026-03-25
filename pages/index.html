@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Map</title>
+
+  <link rel="stylesheet" href="map.css">
+
+<style>
+    html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #303036;
+    }
+
+    body {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background: url("../background-anim/404 error/horiz 404.gif") center center no-repeat fixed;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.2rem;
+    color: white;
+    font-size: 20px;                       
+    }
+</style>
+</head>
+
+<body>
+    <div class="body-content">
+        <div class="nomad-intro">
+            <p style="font-weight: 200">See where I currently am in the world! Feel free to <a href="/" style="color: #b1a6e3; text-decoration: none; cursor: pointer;" onmouseover="this.style.color='#d2d1ff'" onmouseout="this.style.color='#b1a6e3'">reach out</a> :D and/or follow my digital nomading <a href="https://nomadwmi.substack.com/" target="_blank" style="color: #b1a6e3; text-decoration: none; cursor: pointer;" onmouseover="this.style.color='#d2d1ff'" onmouseout="this.style.color='#b1a6e3'">substack</a>! <br> <br>
+            Right now, I'm in <a style="color: #b1a6e3;">Claremont, CA, USA</a>.
+            </p>
+        </div>
+        <div class="map-wrapper">
+            <div class="map">
+            <img src="world.svg" alt="world map" />
+            <div class="dot" id="dot" style="top: 34.5%; left: 17.5%;" data-location="Claremont, CA, USA"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
