@@ -1,11 +1,12 @@
 .body-content {
   width: 60%;
   vertical-align: middle;   
+  max-height: 90vh;
 }
 
 /* WORLD MAP */
 .map-wrapper {
-  width: 100%;
+  max-width: 100%;
   max-height: 100%;
 }
 
