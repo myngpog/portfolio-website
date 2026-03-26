@@ -1,90 +1,147 @@
 <!doctype html>
 <html>
-<head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script>
-    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-  </script>
-  <script defer src="/_vercel/insights/script.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
-  <link href="output.css" rel="stylesheet">
-  <script src="index.js"></script>
-  <title>My Nguyen</title>
-  <!-- <link rel="icon" type="img/png" href="background-anim/glassestransparent.png"> -->
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      window.va =
+        window.va ||
+        function () {
+          (window.vaq = window.vaq || []).push(arguments);
+        };
+    </script>
+    <!-- TODO: UNCOMMENT ME -->
+    <!-- <script defer src="/_vercel/insights/script.js"></script> -->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <title>My Nguyen</title>
+    <!-- <link rel="icon" type="img/png" href="background-anim/glassestransparent.png"> -->
 
-  <link rel="preload" href="background-anim/vertical/1.jpg" as="image">
-  <link rel="preload" href="background-anim/vertical/2.jpg" as="image">
-  <link rel="preload" href="background-anim/vertical/3.jpg" as="image">
-  <link rel="preload" href="background-anim/vertical/4.jpg" as="image">
-  <link rel="preload" href="background-anim/vertical/5.jpg" as="image">
-  <link rel="preload" href="background-anim/vertical/6.jpg" as="image">
+    <link rel="preload" href="background-anim/vertical/1.png" as="image" />
+    <link rel="preload" href="background-anim/vertical/2.png" as="image" />
+    <link rel="preload" href="background-anim/vertical/3.png" as="image" />
+    <link rel="preload" href="background-anim/vertical/4.png" as="image" />
+    <link rel="preload" href="background-anim/vertical/5.png" as="image" />
+    <link rel="preload" href="background-anim/vertical/6.png" as="image" />
 
-  <link rel="preload" href="background-anim/1.jpg" as="image">
-  <link rel="preload" href="background-anim/2.jpg" as="image">
-  <link rel="preload" href="background-anim/3.jpg" as="image">
-  <link rel="preload" href="background-anim/4.jpg" as="image">
-  <link rel="preload" href="background-anim/5.jpg" as="image">
-  <link rel="preload" href="background-anim/6.jpg" as="image">
-  <link rel="preload" href="background-anim/7.jpg" as="image">
-  <link rel="preload" href="background-anim/8.jpg" as="image">
-  <link rel="preload" href="background-anim/9.jpg" as="image">
-  <link rel="preload" href="background-anim/10.jpg" as="image">
-  <link rel="preload" href="background-anim/11.jpg" as="image">
-  <link rel="preload" href="background-anim/12.jpg" as="image">
-  <link rel="preload" href="background-anim/13.jpg" as="image">
-  <link rel="preload" href="background-anim/14.jpg" as="image">
-  <link rel="preload" href="background-anim/15.jpg" as="image">
-  <link rel="preload" href="background-anim/16.jpg" as="image">
-  <link rel="preload" href="background-anim/17.jpg" as="image">
-  <link rel="preload" href="background-anim/18.jpg" as="image">
-  <link rel="preload" href="background-anim/19.jpg" as="image">
-  <link rel="preload" href="background-anim/20.jpg" as="image">
-  <link rel="preload" href="background-anim/21.jpg" as="image">
-  <link rel="preload" href="background-anim/22.jpg" as="image">
-  <link rel="preload" href="background-anim/23.jpg" as="image">
-  <link rel="preload" href="background-anim/24.jpg" as="image">
-  <link rel="preload" href="background-anim/25.jpg" as="image">
-  <link rel="preload" href="background-anim/26.jpg" as="image">
-  <link rel="preload" href="background-anim/27.jpg" as="image">
-  <link rel="preload" href="background-anim/28.jpg" as="image">
-  <link rel="preload" href="background-anim/29.jpg" as="image">
-  <link rel="preload" href="background-anim/30.jpg" as="image">
-  <link rel="preload" href="background-anim/31.jpg" as="image">
+    <link rel="preload" href="background-anim/1.jpg" as="image" />
+    <link rel="preload" href="background-anim/2.jpg" as="image" />
+    <link rel="preload" href="background-anim/3.jpg" as="image" />
+    <link rel="preload" href="background-anim/4.jpg" as="image" />
+    <link rel="preload" href="background-anim/5.jpg" as="image" />
+    <link rel="preload" href="background-anim/6.jpg" as="image" />
+    <link rel="preload" href="background-anim/7.jpg" as="image" />
+    <link rel="preload" href="background-anim/8.jpg" as="image" />
+    <link rel="preload" href="background-anim/9.jpg" as="image" />
+    <link rel="preload" href="background-anim/10.jpg" as="image" />
+    <link rel="preload" href="background-anim/11.jpg" as="image" />
+    <link rel="preload" href="background-anim/12.jpg" as="image" />
+    <link rel="preload" href="background-anim/13.jpg" as="image" />
+    <link rel="preload" href="background-anim/14.jpg" as="image" />
+    <link rel="preload" href="background-anim/15.jpg" as="image" />
+    <link rel="preload" href="background-anim/16.jpg" as="image" />
+    <link rel="preload" href="background-anim/17.jpg" as="image" />
+    <link rel="preload" href="background-anim/18.jpg" as="image" />
+    <link rel="preload" href="background-anim/19.jpg" as="image" />
+    <link rel="preload" href="background-anim/20.jpg" as="image" />
+    <link rel="preload" href="background-anim/21.jpg" as="image" />
+    <link rel="preload" href="background-anim/22.jpg" as="image" />
+    <link rel="preload" href="background-anim/23.jpg" as="image" />
+    <link rel="preload" href="background-anim/24.jpg" as="image" />
+    <link rel="preload" href="background-anim/25.jpg" as="image" />
+    <link rel="preload" href="background-anim/26.jpg" as="image" />
+    <link rel="preload" href="background-anim/27.jpg" as="image" />
+    <link rel="preload" href="background-anim/28.jpg" as="image" />
+    <link rel="preload" href="background-anim/29.jpg" as="image" />
+    <link rel="preload" href="background-anim/30.jpg" as="image" />
+    <link rel="preload" href="background-anim/31.jpg" as="image" />
+  </head>
 
+  <body>
+    <div class="main-visual"></div>
 
-</head>
-
-<body>
-  <div class = "main-visual"></div>
-
-  <div class = "flex flex-col h-screen justify-center items-center">
-    <div class = "inline-block text-center">
-      <h1 id = "name">My Nguyen</h1>
-      <div class = "button-container"></div>
-        <button class = "socials-button" onclick="removeAnchor()"><a href="#anchor">My Internet Footprint</a></button>
-    </div>
-  </div>
-  <div class = "flex flex-col h-screen justify-center items-center">
-    <div class ="mid">
-      <div class = "about-me">
-        <h2 id = "more-about-me">Hello World!</h2>
-        <p id = "information">I'm My Nguyen (pronounced Mi)! Recenty, I graduated Harvey Mudd, class of 2026. Currently, I'm a software engineer at <a href="https://www.bloomcredit.io" target="_blank" class="bloom-link" rel="noreferrer noopener">Bloom Credit</a>, working on scalable credit data systems! <br>Beyond tech, I'm a newbie digital nomad exploring the world (find out where I'm currently at <a href="/map" class="bloom-link" style="color: #bfb0e6; text-decoration: underline;" onmouseover="this.style.color='#ebe3ff';" onmouseout="this.style.color='#bfb0e6';">here</a>)! I enjoy chatting with people, exploring nature, and a cup of tea. In my free time, I'm a part-time writer and enjoy writing prose. Other hobbies of mine include drawing, animation, media, and games (though only with friends)!<br>So if it isn't already obvious, I'm happiest when I'm creatively expressing myself and interacting with people, whether it be through work or hobbies.</p>
-        <p id = "ending">Feel free to <a href="mailto:mynguyen.uwu@gmail.com">reach out</a> & thanks for visiting my corner of the internet!</p>
+    <div class="flex flex-col h-screen justify-center items-center">
+      <div class="inline-block text-center">
+        <h1 id="name">My Nguyen</h1>
+        <div class="button-container"></div>
+        <button class="socials-button" onclick="removeAnchor()">
+          <a href="#anchor">My Internet Footprint</a>
+        </button>
       </div>
     </div>
-  </div>
-
-  <div class = "flex flex-col h-screen justify-center items-center">
-    <a name = "anchor"></a>
-    <div id = "title">⤓ External Links ⤓</div>
-    <div class = "link-buttons">
-      <button onClick=""><a href="https://docs.google.com/document/d/1ws6pZy_5hcCv1O_tbWaLMVH9QylKmyv_/edit?usp=sharing&ouid=112172375423865434734&rtpof=true&sd=true" target="_blank">Resume</a></button>
-      <button onClick=""><a href="https://github.com/myngpog" target="_blank">Github</a></button>
-      <button onClick=""><a href="https://www.linkedin.com/in/my-nguyen-9a0643229/" target="_blank">LinkedIn</a></button>
-      <button onClick=""><a href="https://nomadwmi.substack.com/" target="_blank">Substack</a></button>
-      <button onClick=""><a href="https://medium.com/@myngbruh" target="_blank">Medium (Tech)</a></button>
+    <div class="flex flex-col h-screen justify-center items-center">
+      <div class="mid">
+        <div class="about-me">
+          <h2 id="more-about-me">Hello World!</h2>
+          <p id="information">
+            I'm My Nguyen (pronounced Mi)! Recenty, I graduated Harvey Mudd,
+            class of 2026. Currently, I'm a software engineer at
+            <a
+              href="https://www.bloomcredit.io"
+              target="_blank"
+              class="bloom-link"
+              rel="noreferrer noopener"
+              >Bloom Credit</a
+            >, working on scalable credit data systems! <br />Beyond tech, I'm a
+            newbie digital nomad exploring the world (find out where I'm
+            currently at
+            <a
+              href="/map"
+              class="bloom-link"
+              style="color: #bfb0e6; text-decoration: underline"
+              onmouseover="this.style.color = '#ebe3ff'"
+              onmouseout="this.style.color = '#bfb0e6'"
+              >here</a
+            >)! I enjoy chatting with people, exploring nature, and a cup of
+            tea. In my free time, I'm a part-time writer and enjoy writing
+            prose. Other hobbies of mine include drawing, animation, media, and
+            games (though only with friends)!<br />So if it isn't already
+            obvious, I'm happiest when I'm creatively expressing myself and
+            interacting with people, whether it be through work or hobbies.
+          </p>
+          <p id="ending">
+            Feel free to <a href="mailto:mynguyen.uwu@gmail.com">reach out</a> &
+            thanks for visiting my corner of the internet!
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-</body>
+
+    <div class="flex flex-col h-screen justify-center items-center">
+      <a name="anchor"></a>
+      <div id="title">⤓ External Links ⤓</div>
+      <div class="link-buttons">
+        <button onClick="">
+          <a
+            href="https://docs.google.com/document/d/1ws6pZy_5hcCv1O_tbWaLMVH9QylKmyv_/edit?usp=sharing&ouid=112172375423865434734&rtpof=true&sd=true"
+            target="_blank"
+            >Resume</a
+          >
+        </button>
+        <button onClick="">
+          <a href="https://github.com/myngpog" target="_blank">Github</a>
+        </button>
+        <button onClick="">
+          <a
+            href="https://www.linkedin.com/in/my-nguyen-9a0643229/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </button>
+        <button onClick="">
+          <a href="https://nomadwmi.substack.com/" target="_blank">Substack</a>
+        </button>
+        <button onClick="">
+          <a href="https://medium.com/@myngbruh" target="_blank"
+            >Medium (Tech)</a
+          >
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
+
