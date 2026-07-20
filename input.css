@@ -78,14 +78,6 @@ html {
   background-size: auto 100%;
 }
 
-.main-visual::after{
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-  pointer-events: none;
-}
-
 a {
   display: block;
   z-index: 99;
